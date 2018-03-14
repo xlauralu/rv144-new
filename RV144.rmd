@@ -68,9 +68,24 @@ rowPerc(results)
 
 <!--Display inferential evidence as to the effectiveness of the vaccine with explanations and interpretations!-->
 
+Our Null Hypothesis shall be:  
+
+$H_0:$  There is no relationship between getting Aids and haven taken the  Aids vaccine.  
+
+The Alternative Hypothesis is:  
+$H_a:$ There is a relationship between getting Aids and having the vaccine. 
+We now test the independence of the aids vaccine and placebo groups.  
+
+```{r}
+myrv144 <- chisqtestGC(results, graph = TRUE)
+myrv144
+```
+
 ```{r}
 chisqtestGC(results, graph = TRUE)
 ```
+
+According to the above results, the chances of getting aids is rather low due to our previously mentioned Null Hypothesis. The value of the Chi Squared statistic is 3.90, while the probability value is at 0.04. Having taking the vaccine versus the placebo, it looks like one is more likely to get aids if given the placebo. 
 
 
 ## Conclusions
