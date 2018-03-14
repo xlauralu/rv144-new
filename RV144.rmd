@@ -51,6 +51,8 @@ rownames(results) <- c("none","aids")
 ```{r}
 barchartGC(results,type = "percent")
 ```
+  
+In reading the above bar chart, it is easy to observe the almost equal starting point of both vaccines and placebos. In the aids column, we note a rise in the placebo group; utlimately showing its ineffectiveness.
 
 ### Numerical Results
 <!--Display numerical evidence as to the effectiveness of the vaccine with explanations !--> 
