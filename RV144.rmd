@@ -92,5 +92,6 @@ According to the above results, the chances of getting aids is rather low due to
 
 
 ## Conclusions
+According to all of the information presented throughout the report showing our summary and our graphs, we can assume that the correlation in the aids vaccine and its effects on the placebo group are displayed in the Chi test. While the placebo group believed they we're getting the vaccine, the numbers increased. This diminishes all validity in terms of correlation from the experimental and placebo group, essentially voiding the use of an aids vaccine. Finally, making it ineffective.
 
 <Summarise your results as to the effectiveness of the vaccine with explanations that could be understood by your mom>
